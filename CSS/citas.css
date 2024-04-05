@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------------------caja de hasta arriba*/
+.cuadroUsuario{
+    background-color: aqua;
+    width: 100%;
+    height: 3.5cm;
+}
+
+.imagenUsuario{
+    position: relative;
+    margin-left: 1cm;
+    width: 120px;
+    height:120px;
+}
+
+.nombreUsuario{
+    display:inline;
+    position: absolute;
+    margin-top: 1.5cm;
+
+}
+
+/*----------------------------caja principal*/
+
+.cuadroPrincipal{
+    background-color: blueviolet;
+    width: 100%;
+    height: 15cm;
+    position: relative;
+}
+
+.imagenFondo{
+    position: absolute;
+    background-color: beige;
+    width: 60%;
+    height: 10cm;
+    right: 20%;
+    margin-top: 2cm;
+    background-image: url(/Imagenes/hospital2.0.png );
+    background-size: cover;
+    
+}
+
+.opcionesCitas{
+    width: 100%;
+    height: 1cm;
+    background-color: red;
+    display: flex;
+    margin-top: 5cm;
+   
+}
+
+.boton{
+    margin-left:4cm;
+    margin-top: 0.2cm;
+}
+
+.cajaTitulo{
+    background-color:rebeccapurple;
+    margin-top: 4cm;
+    width: 100%;
+    height: 1cm;
+    position: absolute;
+
+}
+
+.tituloHospital{
+    text-align: center;
+    margin-top: 0.2cm;
+}
+
+
+
+
+
+
+
+
+
+/*----------------------------------footer*/
+
+.footer{
+    margin-top: .5cm;
+    background: #333;
+    color:#fff ;
+    padding: 50px;
+    text-align: center;
+    }

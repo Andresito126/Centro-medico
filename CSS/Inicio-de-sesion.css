@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.titulo{
+    background-color: blue;
+}
+
+
+
+.imagenSesion{
+    margin-top: 2cm;
+    margin-right: 5cm;
+    width: 400px;
+    height:500px ;
+    border-radius:15% ;
+    border: 5px solid skyblue;
+    object-fit: cover;
+    padding: 0 auto;
+    float:right; 
+  }
+
+  .imagenUsuario{
+    
+    margin-left: 6cm;
+    width: 100px;
+    height:100px;
+    margin-bottom: 1cm;
+    
+}
+
+  .cuadroInicio{
+    box-sizing: border-box;
+    background-color: beige;
+    width: 15cm;
+    height: 15cm;
+    margin-left: 5cm;
+    margin-top: 2cm;
+    border-radius: 1cm;
+    
+
+}
+
+
+.cuadrosDatos{
+    height: 2cm;
+    padding-top: .5cm;
+    padding-bottom: .5cm;
+    margin-left: 3.7cm;
+    margin-right: 5cm;
+}
+
+
+
+.cuadrosTexto{
+    background-color: #2f6c76;
+    display: block;
+    margin: auto;
+    margin-top: .7cm;
+    margin-bottom: 1cm;
+    text-align: center;
+    padding: 3px;
+    border-radius: .5cm ;
+    border-color: aqua;
+}
+
+.cuadroTextoSesion{
+    background-color: #2f6c76;
+    display: block;
+    margin: auto;
+    margin-top: .7cm;
+    margin-bottom: 1cm;
+    text-align: center;
+    margin-left: 1.2cm;
+    padding-left: 2cm;
+    padding-right: 1.8cm;
+    border-radius: .5cm ;
+    border-color: aqua;
+
+}
+
+input::placeholder{
+    color: black;
+}
+
+.imagenesCuadros{
+    width: 50px;
+    height:50px ;
+    border-radius:15% ;
+    object-fit: cover;
+    float: inline-start;
+    margin-top: .1cm; 
+
+}
+/*----------------------------------footer*/
+
+.footer{
+    margin-top: 1.5cm;
+    background: #333;
+    color:#fff ;
+    padding: 50px;
+    text-align: center;
+    }
+
