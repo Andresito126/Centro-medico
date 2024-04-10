@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------------------caja de hasta arriba (datos)*/
+.logoMedicina{
+    position: relative;
+    margin-left: 1cm;
+    width: 100px;
+    height:100px;
+    margin-top: .4cm;
+}
+
+
+.box__usuario{
+    background: linear-gradient(#377c8f, #4299a0 ); 
+    width: 100%;
+    height: 3.5cm;
+    border-bottom: 10px black;
+}
+
+
+.box__item{
+    display:inline;
+    position: absolute;
+    margin-top: 1cm;
+    font-size: .5cm;
+
+}
+
+.item--datos{
+    margin-left: 1cm;
+}
+
+.item--lugar--fecha {
+    right: 2.9cm;
+}
+
+/*----caja principal----*/
+
+.div__opciones{
+    
+    width: 100%;
+    height: 19cm;
+    display: flex;
+    background: linear-gradient(#58a5ab, #48a4a8, #54c1bb,#62e3d1);
+    /*----------------------------#4299a0*/
+}
+
+.logo__doctor{
+    position: absolute;
+    margin-left: 10%;
+    width: 200px;
+    height:400px;
+    margin-top: 8%;
+}
+
+
+.formulario {
+    width: 600px;
+    background: #d1d1d1;
+    padding: 30px;
+    margin-left: 38%;
+    height: 14.8cm;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: 'calibri';
+    
+  }
+
+  .formulario__busqueda {
+    margin-bottom: 16px; 
+}
+
+ button{
+    cursor: pointer;
+    margin-left: 2cm;
+    padding-right: 1cm;
+    padding-left: 1cm;
+ }
+ 
+  
+  
+  .item--datos--formulario {
+    width: 100%;
+    background: #d1d1d1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+    
+    
+  }
+
+  input::placeholder{
+    color: black;
+    cursor: pointer;
+}
+  
+
+.item--boton{
+    background: #d1d1d1;
+    border: 1px solid #000000;
+    font-size: 16px;
+    text-align: center; 
+    font-family: 'calibri';
+}
+
+.item--boton:hover {
+    background: #bfbfbf; 
+    cursor: pointer;
+}
+  
+  .boton--generar{
+    width: 40%;
+    padding: 12px;
+    margin-left: 27%;
+    margin-top: .5cm;
+  }
+
+  .boton--regresar {
+    display: block; 
+    width: 20%;
+    padding: 12px;
+    float: right;
+    margin-top: 22%;
+    text-decoration: none; 
+    color: #000000; 
+}
+
+
+/*----------------------------------footer*/
+
+.footer{
+   
+    background: #5ec5bf;
+    background: linear-gradient(#5ec5bf,#377c8f );
+    color:#fff ;
+    padding: 50px;
+    text-align: center;
+    }
+
+
+
+

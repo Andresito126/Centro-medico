@@ -3,7 +3,7 @@
     margin: 0;
 }
 .titulo{
-    background-color: blue;
+    background: linear-gradient(#377c8f, #4299a0 ); 
 }
 
 
@@ -78,6 +78,24 @@
     border-color: aqua;
 
 }
+
+.cuadroTextoSesion2{
+    background-color: #2f6c76;
+    display: block;
+    margin: auto;
+    margin-top: .7cm;
+    margin-bottom: 1cm;
+    text-align: center;
+    margin-left: .8cm;
+    padding-left: 2cm;
+    padding-right: 1.8cm;
+    padding-top: .3cm;
+    padding-bottom: .3cm;
+    border-radius: .5cm ;
+    border-color: aqua;
+
+}
+
 
 input::placeholder{
     color: black;

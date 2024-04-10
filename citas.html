@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="CSS/citas.css">
 </head>
 <body>
+    <header>
+        <div class="box__usuario">
+            <img class="imagen__usuario" src="Imagenes/user2.0.png" alt="Cargando...">
+            <p class="box__item item--datos" id="nombreUsuario" > Usuario: ----</p>
+        </div>
+    </header>
 
-    <div class="cuadroUsuario">
-        <img class="imagenUsuario" src="Imagenes/user2.0.png" alt="Cargando...">
-        <h2 class="nombreUsuario">Usuario</h2>
-    </div>
+
 
     <div class="cuadroPrincipal">
 
@@ -20,36 +23,25 @@
                 <div class="cajaTitulo">
                 <h2 class="tituloHospital" >CENTRO MÉDICO SAN PEDRO</h2>
                 </div>
-                <div class="opcionesCitas">
-                    <div>
-                    <button class="boton" onclick="">AÑADIR CITA</button>
-                    </div>
+                <div class="opcionesCitas">   
+                <form class="opciones">
+                    <a href="añadir-cita.html" class="opciones__item item--botones">AÑADIR CITA</a>
+                    <a href="citas-programadas.html" class="opciones__item item--botones">VER CITA</a>
+                    <a href="Inicio-de-sesion.html" class="opciones__item item--botones">CERRAR SESIÓN</a>
         
-                    <div >
-                    <button class="boton" onclick="">VER CITAS</button>
-                    </div>
-              
-        
-                    <div>
-                        <a href="Inicio-de-sesion.html">
-                    <button  class="boton" onclick=""> CERRAR SESIÓN</button >
-                        </a>
-                    </div>
+                </form>
                 </div>
+
 
         </div>
 
     </div>
     
+    <footer class="footer">
+        <p>&copy; AJGA-KJMP-2024-Todos los derechos reservados para los creadores. <br>
+            Universidad Politecnica de Chiapas <br>
+            Pagina web-Centro Médico</p>
+    </footer>
+
 </body>
-
-<footer class="footer">
-  
-
-
-</div>   
-<p class="copy">&copy; AJGA-KJMP-2024-Todos los derechos reservados para los creadores. <br>
-    Universidad Politecnica de Chiapas <br>
-  Pagina web-Centro Médico</p>     
-</footer>
 </html>

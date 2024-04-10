@@ -3,31 +3,43 @@
     margin: 0;
 }
 
-/*----------------------------caja de hasta arriba*/
-.cuadroUsuario{
-    background-color: aqua;
+/*----------------------------caja de hasta arriba (datos)*/
+    .imagen__usuario{
+        position: relative;
+        margin-left: 1cm;
+        width: 100px;
+        height:100px;
+        margin-top: .4cm;
+    }
+
+
+.box__usuario{
+    background: linear-gradient(#377c8f, #4299a0 ); 
     width: 100%;
     height: 3.5cm;
+    border-bottom: 10px black;
 }
 
-.imagenUsuario{
-    position: relative;
-    margin-left: 1cm;
-    width: 120px;
-    height:120px;
-}
 
-.nombreUsuario{
+.box__item{
     display:inline;
     position: absolute;
-    margin-top: 1.5cm;
+    margin-top: 1cm;
+    font-size: .5cm;
 
 }
+
+.item--datos{
+    margin-top: 1.6cm;
+    margin-left: .7cm;
+}
+
+
 
 /*----------------------------caja principal*/
 
 .cuadroPrincipal{
-    background-color: blueviolet;
+    background: linear-gradient(#58a5ab, #48a4a8, #54c1bb,#62e3d1);
     width: 100%;
     height: 15cm;
     position: relative;
@@ -47,24 +59,21 @@
 
 .opcionesCitas{
     width: 100%;
-    height: 1cm;
-    background-color: red;
-    display: flex;
     margin-top: 5cm;
-   
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
-.boton{
-    margin-left:4cm;
-    margin-top: 0.2cm;
-}
+
 
 .cajaTitulo{
-    background-color:rebeccapurple;
+    background-color:#37a4b1;
     margin-top: 4cm;
-    width: 100%;
+    width: 66.7%;
     height: 1cm;
     position: absolute;
+    margin-left: 4cm;
 
 }
 
@@ -72,6 +81,43 @@
     text-align: center;
     margin-top: 0.2cm;
 }
+
+
+/*--------opcines*/
+
+    .opciones {
+        border-radius: 0px;
+        font-family: 'calibri';
+    
+        justify-content: center;
+        display: flex;
+        
+    }
+    
+        
+    
+    .item--botones {
+        display: inline-block;  
+        background-color: #297093;
+        border: 3.5px solid #000000;
+        border-left: 6px solid black;
+        border-right: 6px solid black;
+        padding: 9px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 14px;
+        text-align: center; 
+        text-decoration: none; 
+        color: #000000; 
+
+        
+        
+        
+    }
+
+    .item--botones:hover {
+        background: #bfbfbf; 
+    }
 
 
 
@@ -84,8 +130,9 @@
 /*----------------------------------footer*/
 
 .footer{
-    margin-top: .5cm;
-    background: #333;
+   
+    background: #5ec5bf;
+    background: linear-gradient(#5ec5bf,#377c8f );
     color:#fff ;
     padding: 50px;
     text-align: center;

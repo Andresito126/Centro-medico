@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Citas</title>
+    <link rel="stylesheet" href="CSS/citas-programadas.css">
+</head>
+<body>
+    
+        
+    <header>
+        <div class="box__usuario">
+            <img class="logoMedicina" src="Imagenes/logoMedicina.png" alt="Cargando...">
+            <p class="box__item item--datos " > CENTRO MÉDICO "SAN PEDRO" <br>CITAS PROGRAMADAS  <br> PERSONA QUIEN ATENDIO: </p>
+            <p class="box__item item--lugar--fecha" >SUCHIAPA, CHIAPAS <br> FECHA ACTUAL</p>
+        </div>
+    </header>
+
+    <div class="div__box">
+        
+
+        
+        <div class="lista-citas">
+           
+            <table id="tabla-citas">
+                <thead>
+                    <tr>
+                        <th>ID del Paciente</th>
+                        <th>Fecha &emsp;&emsp;&emsp;</th>
+                        <th>Hora &emsp;&emsp;&emsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Aca va el js -->   
+                </tbody>
+            </table>
+        </div>
+
+        
+        <div class="botones">
+            <button class="boton--cancelar" onclick="mostrarConfirmacion()">Cancelar Cita</button>
+            <a href="citas.html" class="boton--regresar">Regresar</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; AJGA-KJMP-2024-Todos los derechos reservados para los creadores. <br>
+            Universidad Politecnica de Chiapas <br>
+            Pagina web-Centro Médico</p>
+    </footer>
+
+</body>
+</html>
