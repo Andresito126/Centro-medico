@@ -80,13 +80,11 @@
 /*----------------------------------footer*/
 
 .footer{
-   
-    background: #5ec5bf;
     background: linear-gradient(#5ec5bf,#377c8f );
     color:#fff ;
     padding: 50px;
     text-align: center;
-    position: fixed; /* o relative dependiendo de tus necesidades */
+    position: fixed; 
     bottom: 0;
     width: 100%;
     

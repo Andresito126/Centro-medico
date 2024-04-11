@@ -50,8 +50,8 @@
 
 .logo__doctor{
     position: absolute;
-    margin-left: 10%;
-    width: 200px;
+    margin-left: 4%;
+    width: 400px;
     height:400px;
     margin-top: 8%;
 }
@@ -137,8 +137,6 @@
 /*----------------------------------footer*/
 
 .footer{
-   
-    background: #5ec5bf;
     background: linear-gradient(#5ec5bf,#377c8f );
     color:#fff ;
     padding: 50px;

@@ -1,22 +1,43 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0;  
 }
+
+/*----------------------------caja de hasta arriba (datos)*/
+.logoMedicina{
+    position:absolute;
+    margin-left: 1cm;
+    margin-right: 0;
+    width: 100px;
+    height:100px;
+    margin-top: .2cm;
+}
+
 .titulo{
     background: linear-gradient(#377c8f, #4299a0 ); 
+    width: 100%;
+    height: 3cm;
+    border-bottom: 10px black;
+}
+
+h1{
+    display:inline;
+    position: absolute;
+    margin-top: 1cm;
+    font-size: 1cm;
 }
 
 
-
+/*-----------------caja principal form------------*/
+.todo{
+    height: 16.3cm;
+    background: linear-gradient(#58a5ab, #48a4a8, #54c1bb,#62e3d1);
+}
 .imagenSesion{
-    margin-top: 2cm;
     margin-right: 5cm;
-    width: 400px;
-    height:500px ;
-    border-radius:15% ;
-    border: 5px solid skyblue;
+    width: 550px;
+    height: 550px ;
     object-fit: cover;
-    padding: 0 auto;
     float:right; 
   }
 
@@ -25,20 +46,20 @@
     margin-left: 6cm;
     width: 100px;
     height:100px;
-    margin-bottom: 1cm;
+    
     
 }
 
   .cuadroInicio{
+    position: absolute;
     box-sizing: border-box;
     background-color: beige;
     width: 15cm;
     height: 15cm;
     margin-left: 5cm;
-    margin-top: 2cm;
+    margin-top: 1cm;
     border-radius: 1cm;
-    
-
+    background: linear-gradient(#169f90,#168780,#176d6c,#176d6c,#16404e);
 }
 
 
@@ -48,12 +69,13 @@
     padding-bottom: .5cm;
     margin-left: 3.7cm;
     margin-right: 5cm;
+    
 }
 
 
 
 .cuadrosTexto{
-    background-color: #2f6c76;
+    background: linear-gradient(#2e6877,#2d957f);
     display: block;
     margin: auto;
     margin-top: .7cm;
@@ -62,38 +84,37 @@
     padding: 3px;
     border-radius: .5cm ;
     border-color: aqua;
+   
 }
 
 .cuadroTextoSesion{
-    background-color: #2f6c76;
+    background: linear-gradient(#2e6877,#2d957f);
     display: block;
     margin: auto;
     margin-top: .7cm;
     margin-bottom: 1cm;
     text-align: center;
-    margin-left: 1.2cm;
     padding-left: 2cm;
     padding-right: 1.8cm;
     border-radius: .5cm ;
     border-color: aqua;
-
+    margin-left: 1.2cm;
 }
 
 .cuadroTextoSesion2{
-    background-color: #2f6c76;
+    background: linear-gradient(#2e6877,#2d957f);
     display: block;
     margin: auto;
     margin-top: .7cm;
     margin-bottom: 1cm;
     text-align: center;
-    margin-left: .8cm;
     padding-left: 2cm;
     padding-right: 1.8cm;
-    padding-top: .3cm;
-    padding-bottom: .3cm;
     border-radius: .5cm ;
     border-color: aqua;
-
+    margin-left: .8cm;
+    padding-top: .3cm;
+    padding-bottom: .3cm;
 }
 
 
@@ -113,8 +134,8 @@ input::placeholder{
 /*----------------------------------footer*/
 
 .footer{
-    margin-top: 1.5cm;
-    background: #333;
+    
+    background: linear-gradient(#5ec5bf,#377c8f );
     color:#fff ;
     padding: 50px;
     text-align: center;

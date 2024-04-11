@@ -47,7 +47,7 @@
 
 .imagenFondo{
     position: absolute;
-    background-color: beige;
+    background-color: #e3e3e2;
     width: 60%;
     height: 10cm;
     right: 20%;
@@ -130,8 +130,6 @@
 /*----------------------------------footer*/
 
 .footer{
-   
-    background: #5ec5bf;
     background: linear-gradient(#5ec5bf,#377c8f );
     color:#fff ;
     padding: 50px;
