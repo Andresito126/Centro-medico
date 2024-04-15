@@ -1,143 +1,202 @@
-*{
+* {
     padding: 0;
-    margin: 0;  
-}
-
-/*----------------------------caja de hasta arriba (datos)*/
-.logoMedicina{
-    position:absolute;
-    margin-left: 1cm;
-    margin-right: 0;
-    width: 100px;
-    height:100px;
-    margin-top: .2cm;
-}
-
-.titulo{
-    background: linear-gradient(#377c8f, #4299a0 ); 
-    width: 100%;
-    height: 3cm;
-    border-bottom: 10px black;
-}
-
-h1{
-    display:inline;
-    position: absolute;
-    margin-top: 1cm;
-    font-size: 1cm;
-}
-
-
-/*-----------------caja principal form------------*/
-.todo{
-    height: 16.3cm;
-    background: linear-gradient(#58a5ab, #48a4a8, #54c1bb,#62e3d1);
-}
-.imagenSesion{
-    margin-right: 5cm;
-    width: 550px;
-    height: 550px ;
-    object-fit: cover;
-    float:right; 
+    margin: 0;
   }
-
-  .imagenUsuario{
-    
+  
+  body {
+    background: linear-gradient(
+      180deg,
+      rgba(54, 122, 142, 1) 0%,
+      rgba(38, 179, 155, 1) 46%,
+      rgb(15, 99, 85) 100%
+    );
+  }
+  
+  .header {
+    display: flex;
+  }
+  
+  .head {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  
+  .head_01 {
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  
+  #img-header {
+    width: 80px;
+    height: 65px;
+    margin-left: 15px;
+  }
+  
+  .principal{
+      display: flex;
+      gap: 70px;
+      margin-top: 10px;
+  }
+  
+  .imagen{
+      width: 700px;
+      height: 580px;
+      margin-top: 35px;
+  }
+  
+  .img-super{
+      background-image: url(/Imagenes/pensamiento.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      text-align: center;
+      color: aliceblue;
+      width: 307px;
+      height: 250px;
+      position: relative;
+      left: 90px;
+      top: -15px;
+      border-radius: 1100px;  
+  }
+  
+  #parrafo_img{
+      padding-top: 50px;
+      font-size: 20px;
+  }
+  
+  #img_pensa{ 
+      width: 330px;
+      height: 300px;
+      position: relative;
+      top: -40px;
+  }
+  
+  .imagenSesion {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    top: -125px;
+    left: 70px;
+    object-fit: cover;
+    padding: 0 auto;
+  }
+  
+  .imagenUsuario {
+    position: relative;
     margin-left: 6cm;
-    width: 100px;
-    height:100px;
-    
-    
-}
-
-  .cuadroInicio{
-    position: absolute;
+    width: 125px;
+    height: 125px;
+    margin-bottom: 1cm;
+    bottom: 60px;
+    right: 40px;
+  }
+  
+  .cuadroInicio {
     box-sizing: border-box;
-    background-color: beige;
-    width: 15cm;
-    height: 15cm;
-    margin-left: 5cm;
-    margin-top: 1cm;
+    background: linear-gradient(
+      180deg,
+      rgb(30, 122, 110) 0%,
+      rgba(38, 179, 155, 1) 46%,
+      rgb(26, 64, 79) 100%
+    );
+    width: 13cm;
+    height: 14cm;
+    margin-left: 4cm;
+    margin-top: 2cm;
     border-radius: 1cm;
-    background: linear-gradient(#169f90,#168780,#176d6c,#176d6c,#16404e);
-}
-
-
-.cuadrosDatos{
-    height: 2cm;
-    padding-top: .5cm;
-    padding-bottom: .5cm;
-    margin-left: 3.7cm;
-    margin-right: 5cm;
-    
-}
-
-
-
-.cuadrosTexto{
-    background: linear-gradient(#2e6877,#2d957f);
+  }
+  
+  form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 50px;
+  }
+  
+  #cuadrosDatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 60px;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    margin-top: 10px;
+  }
+  
+  #imagenesCuadros {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+  }
+  
+  #cuadrosDatos1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    margin-top: 20px;
+  }
+  
+  #imagenesCuadros1 {
+    width: 50px;
+    height: 45px;
+    margin-left: 0px;
+  }
+  .cuadrosTexto {
+    background: linear-gradient(180deg, rgba(56,93,110,1) 0%, rgba(47,94,116,1) 0%, rgba(44,167,130,1) 100%);
+    width: 250px;
+    height: 23px;
     display: block;
     margin: auto;
-    margin-top: .7cm;
-    margin-bottom: 1cm;
     text-align: center;
     padding: 3px;
-    border-radius: .5cm ;
-    border-color: aqua;
-   
-}
-
-.cuadroTextoSesion{
-    background: linear-gradient(#2e6877,#2d957f);
-    display: block;
-    margin: auto;
-    margin-top: .7cm;
-    margin-bottom: 1cm;
-    text-align: center;
-    padding-left: 2cm;
-    padding-right: 1.8cm;
-    border-radius: .5cm ;
-    border-color: aqua;
-    margin-left: 1.2cm;
-}
-
-.cuadroTextoSesion2{
-    background: linear-gradient(#2e6877,#2d957f);
-    display: block;
-    margin: auto;
-    margin-top: .7cm;
-    margin-bottom: 1cm;
-    text-align: center;
-    padding-left: 2cm;
-    padding-right: 1.8cm;
-    border-radius: .5cm ;
-    border-color: aqua;
-    margin-left: .8cm;
-    padding-top: .3cm;
-    padding-bottom: .3cm;
-}
-
-
-input::placeholder{
-    color: black;
-}
-
-.imagenesCuadros{
-    width: 50px;
-    height:50px ;
-    border-radius:15% ;
-    object-fit: cover;
-    float: inline-start;
-    margin-top: .1cm; 
-
-}
-/*----------------------------------footer*/
-
-.footer{
-    
-    background: linear-gradient(#5ec5bf,#377c8f );
-    color:#fff ;
+    border-radius: 0.3cm;
+    border-color: rgb(206, 211, 211);
+  }
+  
+  #cuadrosDatos2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 2cm;
+    margin-top: 50px;
+  }
+  
+  .cuadroTextoSesion {
+    background: linear-gradient(180deg, rgba(56,93,110,1) 0%, rgba(47,94,116,1) 0%, rgba(44,167,130,1) 100%);    
+    color: rgb(52, 51, 51);
+    font-size: 17px;
+    width: 250px;
+    height: 40px;
+    border-radius: 0.3cm;
+    border-color: rgb(206, 211, 211);
+  }
+  
+  .cuadroTextoSesion:hover{
+    background: linear-gradient(180deg, rgba(56,93,110,1) 0%, rgba(50,167,143,1) 0%, rgb(39, 174, 181) 100%); 
+  }
+  
+  .mensaje-error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  input::placeholder {
+    color: rgb(52, 51, 51);
+  }
+  
+  /*----------------------------------footer*/
+  
+  .footer {
+    margin-top: .3cm;
+    background: linear-gradient(rgb(15, 99, 85), #377c8f);
+    color: #fff;
     padding: 50px;
     text-align: center;
-    }
-
+  }

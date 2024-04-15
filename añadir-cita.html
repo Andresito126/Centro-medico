@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="e">
 
 <head>
     <meta charset="UTF-8">
@@ -12,44 +12,29 @@
     <header>
         <div class="cuadroUsuario">
             <img class="logoMedicina" src="Imagenes/logoMedicina.png" alt="Cargando...">
-            <p class="datos"> CENTRO MÉDICO "SAN PEDRO" <br> USUARIO <br> DETALLES DE LA CITA</p>
-            <p class="lugarFecha">SUCHIAPA, CHIAPAS <br> FECHA ACTUAL</p>
+            <p class="datos"> CENTRO MÉDICO "SAN PEDRO"</p>
+            <p id="usuario_nombre"></p>
+            <p class="datos"> <br><br> DETALLES DE LA CITA</p>
+            <p class="lugarFecha">SUCHIAPA, CHIAPAS</p>
+            <p id="fechaActual"><br> FECHA ACTUAL</p>
         </div>
     </header>
-    <!-- 
-    <div class="boxFormulario">
-        <form class="formulario">
-
-            <input type="text" id="nombrePaciente" placeholder="NOMBRE DEL PACIENTE" >
-            <input type="number" id="idPaciente" placeholder="IDENTIFICACIÓN DEL PACIENTE">
-            <input type="number" id="numTelefono" placeholder="NUMERO DE TELEFONO" >
-            <input type="date" id="fecha" placeholder="FECHA">
-            <input type="time" id="hora" placeholder="HORA">
-            <input type="number" id="valorAPagar" placeholder="VALOR A PAGAR" >
-            <input type="submit" id="validarPago" value="VALIDAR PAGO" >
-            <input type="submit" id="añadirCita" value="AÑADIR CITA" >
-        </form>
-    </div>
-
-    -->
 
     <div class="boxFormulario">
-        <form class="formulario">
+        <form class="formulario" id="form">
 
             <input class="formulario__item item--datos--formulario" type="text" id="nombrePaciente" placeholder="NOMBRE DEL PACIENTE">
             <input class="formulario__item item--datos--formulario" type="number" id="idPaciente" placeholder="IDENTIFICACIÓN DEL PACIENTE">
             <input class="formulario__item item--datos--formulario" type="number" id="numTelefono" placeholder="NÚMERO DE TELEFONO">
             <input class="formulario__item item--datos--formulario" type="date" id="fecha" placeholder="FECHA">
-            <input class="formulario__item item--datos--formulario" type="number" id="valorAPagar" placeholder="VALOR A PAGAR">
             <input class="formulario__item item--datos--formulario" type="time" id="hora" placeholder="HORA">
-            <input class="formulario__item item--botones" type="submit" id="validarPago" value="VALIDAR PAGO">
-            <input class="formulario__item item--botones" type="submit" id="añadirCita" value="AÑADIR CITA">
-
-
+            <input class="formulario__item item--datos--formulario" type="number" id="valorAPagar" placeholder="VALOR A PAGAR">
+            <button type="button" id="añadirCita">Añadir cita</button>
         </form>
 
+        <a href="citas.html" class="boton--regresar">Regresar</a>
 
-        <img class="imagenObjetos" src="/Imagenes/objetosMedicos.png" alt="">
+        <img class="imagenObjetos" src="Imagenes/objetosMedicos.png" alt="">
 
     </div>
 
@@ -59,6 +44,8 @@
             Universidad Politecnica de Chiapas <br>
             Pagina web-Centro Médico</p>
     </footer>
+
+    <script src="JavaScript/ProcesoCita.js" type="module"></script>
 
 </body>
 

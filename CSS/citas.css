@@ -1,35 +1,35 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 /*----------------------------caja de hasta arriba (datos)*/
-    .imagen__usuario{
-        position: relative;
-        margin-left: 1cm;
-        width: 100px;
-        height:100px;
-        margin-top: .4cm;
-    }
+.imagen__usuario {
+    position: relative;
+    margin-left: 1cm;
+    width: 100px;
+    height: 100px;
+    margin-top: .4cm;
+}
 
 
-.box__usuario{
-    background: linear-gradient(#377c8f, #4299a0 ); 
+.box__usuario {
+    background: linear-gradient(#377c8f, #4299a0);
     width: 100%;
     height: 3.5cm;
     border-bottom: 10px black;
 }
 
 
-.box__item{
-    display:inline;
+.box__item {
+    display: inline;
     position: absolute;
     margin-top: 1cm;
     font-size: .5cm;
 
 }
 
-.item--datos{
+.item--datos {
     margin-top: 1.6cm;
     margin-left: .7cm;
 }
@@ -38,37 +38,38 @@
 
 /*----------------------------caja principal*/
 
-.cuadroPrincipal{
-    background: linear-gradient(#58a5ab, #48a4a8, #54c1bb,#62e3d1);
+.cuadroPrincipal {
+    background: linear-gradient(#58a5ab, #48a4a8, #54c1bb, #62e3d1);
     width: 100%;
-    height: 15cm;
+    height: 14cm;
     position: relative;
 }
 
-.imagenFondo{
+.formulario {
     position: absolute;
-    background-color: #e3e3e2;
     width: 60%;
     height: 10cm;
     right: 20%;
-    margin-top: 2cm;
-    background-image: url(/Imagenes/hospital2.0.png );
-    background-size: cover;
-    
+    margin-top: 2.5cm;
 }
 
-.opcionesCitas{
+.imagenHospital {
+    margin-left: 33%;
+    margin-top: .5%;
+}
+
+.opcionesCitas {
     width: 100%;
     margin-top: 5cm;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 
 
-.cajaTitulo{
-    background-color:#37a4b1;
+.cajaTitulo {
+    background-color: #37a4b1;
     margin-top: 4cm;
     width: 66.7%;
     height: 1cm;
@@ -77,7 +78,7 @@
 
 }
 
-.tituloHospital{
+.tituloHospital {
     text-align: center;
     margin-top: 0.2cm;
 }
@@ -85,53 +86,44 @@
 
 /*--------opcines*/
 
-    .opciones {
-        border-radius: 0px;
-        font-family: 'calibri';
-    
-        justify-content: center;
-        display: flex;
-        
-    }
-    
-        
-    
-    .item--botones {
-        display: inline-block;  
-        background-color: #297093;
-        border: 3.5px solid #000000;
-        border-left: 6px solid black;
-        border-right: 6px solid black;
-        padding: 9px;
-        padding-left: 60px;
-        padding-right: 60px;
-        font-size: 14px;
-        text-align: center; 
-        text-decoration: none; 
-        color: #000000; 
+.opciones {
+    border-radius: 0px;
+    font-family: 'calibri';
+    justify-content: center;
+    display: flex;
 
-        
-        
-        
-    }
+}
 
-    .item--botones:hover {
-        background: #bfbfbf; 
-    }
+
+
+.item--botones {
+    display: inline-block;
+    background-color: #297093;
+    border: 3.5px solid #000000;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    padding: 9px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
 
 
 
 
+}
 
-
-
-
+.item--botones:hover {
+    background: #bfbfbf;
+}
 
 /*----------------------------------footer*/
 
-.footer{
-    background: linear-gradient(#5ec5bf,#377c8f );
-    color:#fff ;
+.footer {
+    background: linear-gradient(#5ec5bf, #377c8f);
+    color: #fff;
     padding: 50px;
     text-align: center;
-    }
+}
