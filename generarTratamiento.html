@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="e">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar tratamiento</title>
+    <link rel="stylesheet" href="CSS/generar-tratamiento.css">
+</head>
+<body>
+    
+    <header>
+        <div class="box__usuario">
+            <img class="logoMedicina" src="Imagenes/logoMedicina.png" alt="Cargando...">
+            <p class="box__item item--datos " id="infoMedico"></p>
+            <p class="box__item item--lugar--fecha" id="zonaHoraria"></p>
+        </div>
+    </header>
+
+    <div class="div__opciones">
+        <img class="logo__doctor" src="Imagenes/medico.png" alt="Cargando...">
+            <form class="formulario" >
+                <div class="formulario__busqueda">
+                        <label for="buscarNombre">Buscar por id:</label>
+                        <input type="number" id="buscarPaciente" placeholder="Buscar">
+                        <button type="button" id="buscar">Buscar</button>
+                </div>
+                <input class="formulario__item item--datos--formulario" type="text" id="nombrePaciente" placeholder="NOMBRE DEL PACIENTE">
+                <input class="formulario__item item--datos--formulario" type="text" id="paterno" placeholder="APELLIDO PATERNO">
+                <input class="formulario__item item--datos--formulario" type="text" id="materno" placeholder="APELLIDO MATERNO">
+                <input class="formulario__item item--datos--formulario" type="date" id="fechaAsignada" placeholder="FECHA">
+                <input class="formulario__item item--datos--formulario" type="time" id="horaAsignada" placeholder="HORA">
+                <input class="formulario__item item--datos--formulario" id="medicamento" type="text" placeholder="Ingrese un medicamento">
+                <button class="formulario__item item--boton boton--generar"  id="generar-tratamiento" type="button">GENERAR TRATAMIENTO</button>
+                <button class="formulario__item item--boton boton--regresar"  id="btnSesion" type="button">REGRESAR</button>
+            </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; AJGA-KJMP-2024-Todos los derechos reservados para los creadores. <br>
+            Universidad Politecnica de Chiapas <br>
+            Pagina web-Centro Médico</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="JavaScript/GenerarTratamiento.js" type="module"></script>
+
+</body>
+</html>

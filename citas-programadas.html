@@ -21,7 +21,7 @@
 
     <div class="div__box">
             <div class="lista-citas">
-                <table id="tablaCitas" border="1p">
+                <table id="tablaCitas" borde="1">
                     <thead>
                         <tr>
                             <th>ID del Paciente</th>
@@ -32,9 +32,15 @@
                 </table>
             </div>
         <div class="botones">
-            <button class="boton--cancelar">Cancelar Cita</button>
+            <button class="boton--cancelar" id="btnCancelar">Cancelar Cita</button>
             <a href="citas.html" class="boton--regresar">Regresar</a>
         </div>
+    </div>
+
+    <div id="contenedorInput" style="display: none;">
+        <label for="citaCancelar">Ingresal el id del paciente a cancelar la cita:</label>
+        <input type="number" id="citaCancelar" placeholder="idPaciente">
+        <button id="citaCancelada" type="button">Aceptar</button>
     </div>
 
     <footer class="footer">
@@ -42,6 +48,8 @@
             Universidad Politecnica de Chiapas <br>
             Pagina web-Centro Médico</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="JavaScript/CitasProgramadas.js" type="module"></script>
 </body>
 </html>

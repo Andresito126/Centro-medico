@@ -11,8 +11,8 @@
     <header>
         <div class="box__usuario">
             <img class="logoMedicina" src="Imagenes/logoMedicina.png" alt="Cargando...">
-            <p class="box__item item--datos " > &emsp;&emsp;&emsp;&emsp;&emsp;CENTRO MÉDICO "SAN PEDRO" <br> DR. SALGO GOMEZ RICO &ensp; &ensp;&ensp; CEDULA PROFESIONAL:1548SDW5</p>
-            <p class="box__item item--lugar--fecha" >SUCHIAPA, CHIAPAS <br> FECHA ACTUAL</p>
+            <p class="box__item item--datos " id="infoMedico"></p>
+            <p class="box__item item--lugar--fecha" id="zonaHoraria"></p>
         </div>
     </header>
 
@@ -20,8 +20,8 @@
         <img class="logo__doctor" src="Imagenes/medico.png" alt="Cargando...">
 
         <form class="opciones" >
-            <a href="generar-tratamiento.html" class="opciones__item item--botones">REALIZAR TRATAMIENTO</a>
-            <a href="Inicio-de-sesion.html" class="opciones__item item--botones">CERRAR SESIÓN</a>
+            <button class="opciones__item item--botones" type="button" id="btn_realizarTratamiento">REALIZAR TRATAMIENTO</button>
+            <button class="opciones__item item--botones" type="button" id="btn_cerrarSesion">CERRAR SESIÓN</button>
 
         </form>
 
@@ -33,6 +33,8 @@
             Pagina web-Centro Médico</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="JavaScript/RealizarTratamiento.js" type="module"></script>
 
 </body>
 </html>

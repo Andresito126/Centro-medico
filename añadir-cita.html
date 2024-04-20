@@ -13,10 +13,10 @@
         <div class="cuadroUsuario">
             <img class="logoMedicina" src="Imagenes/logoMedicina.png" alt="Cargando...">
             <p class="datos"> CENTRO MÉDICO "SAN PEDRO"</p>
-            <p id="usuario_nombre"></p>
+            <p class="datos datos-user" id="usuario_nombre"></p>
             <p class="datos"> <br><br> DETALLES DE LA CITA</p>
             <p class="lugarFecha">SUCHIAPA, CHIAPAS</p>
-            <p id="fechaActual"><br> FECHA ACTUAL</p>
+            <p class="datos fecha-actual" id="fechaActual"><br> FECHA ACTUAL</p>
         </div>
     </header>
 
@@ -29,10 +29,10 @@
             <input class="formulario__item item--datos--formulario" type="date" id="fecha" placeholder="FECHA">
             <input class="formulario__item item--datos--formulario" type="time" id="hora" placeholder="HORA">
             <input class="formulario__item item--datos--formulario" type="number" id="valorAPagar" placeholder="VALOR A PAGAR">
-            <button type="button" id="añadirCita">Añadir cita</button>
+            <button class="formulario__item item--botones" type="button" id="añadirCita">Añadir cita</button>
         </form>
 
-        <a href="citas.html" class="boton--regresar">Regresar</a>
+        <a href="citas.html" class="boton-regreso">Regresar</a>
 
         <img class="imagenObjetos" src="Imagenes/objetosMedicos.png" alt="">
 
@@ -44,9 +44,9 @@
             Universidad Politecnica de Chiapas <br>
             Pagina web-Centro Médico</p>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="JavaScript/ProcesoCita.js" type="module"></script>
 
 </body>
 
-</html>
+</html> 
